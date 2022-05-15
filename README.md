@@ -1,24 +1,6 @@
-# Picnic planner
+# Query API and return API test
 
-This is a picnic planner app for Germany. This opens an API which takes in a range of dates (from and to) in the ISO 8601 format (e.g. 2022-05-01) and 4 preferred location for picnic in human-readable string format (e.g. Mauerpark, Berlin), calls open source [weater API][https://brightsky.dev/] to extract weather conditions on the preferred dates and returns dates and locations which are optimal for a picnic!
-
-Happy picnic planning!
-
-# Installing on your device and running:
-
-Make sure you have python 3 (3.8 preferred) nstalled in your device. install the package with the command:
-```
-pip install api2api
-```
-then run with:
-
-```
-make run_api2api
-```
-You'll get your terminal running and a message like 'Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)....'
-
-Copy and paste the url on your browser, append with /docs (open http://127.0.0.1:8000/docs) and voila you've the interface to perform your query!
-
+This repository is a test repository
 
 
 Please document the project the better you can.
